@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Замените на свои параметры подключения
-DB_URL = 'mysql+pymysql://user:password@localhost/database'
+DB_URL = 'mysql+pymysql://user:password@localhost/your_database'
 engine = create_engine(DB_URL)
 Session = sessionmaker(bind=engine)
 
