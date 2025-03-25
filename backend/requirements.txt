@@ -1,0 +1,6 @@
+﻿flask
+flask-sqlalchemy
+flask-cors
+pymysql
+python-dotenv
+sqlalchemy

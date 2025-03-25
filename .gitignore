@@ -1,0 +1,26 @@
+# Python venv (виртуальное окружение)
+.venv/
+backend/venv/
+
+# Node.js зависимости
+frontend/node_modules/
+
+# Файлы кеша и временные файлы
+__pycache__/
+*.pyc
+*.pyo
+*.swp
+*.swo
+
+# Файлы окружения и конфигурации
+.env
+*.log
+
+# Файлы IDE
+.vscode/
+.idea/
+
+# Бинарные файлы и архивы
+*.zip
+*.tar.gz
+*.rar
