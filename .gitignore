@@ -1,9 +1,20 @@
 # Python venv (виртуальное окружение)
 .venv/
 backend/venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
 
 # Node.js зависимости
 frontend/node_modules/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
 
 # Файлы кеша и временные файлы
 __pycache__/
@@ -11,16 +22,62 @@ __pycache__/
 *.pyo
 *.swp
 *.swo
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
 
 # Файлы окружения и конфигурации
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 *.log
+*.pot
+*.orig
+.DS_Store
+Thumbs.db
 
 # Файлы IDE
 .vscode/
 .idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+*.launch
+.history
 
 # Бинарные файлы и архивы
 *.zip
 *.tar.gz
+*.tgz
 *.rar
+*.7z
+*.iso
+*.jar
+*.war
+*.ear
+*.db
+*.sqlite3
+
+# Сборка и дистрибутивы
+/build
+/dist
+/out
+frontend/build/
+frontend/dist/
+backend/dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Локальные настройки
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
